@@ -8,6 +8,8 @@ body {
 #header{
     margin: 10px;
     margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 .hov{
     padding: 8px 12px 8px 12px;
@@ -21,6 +23,15 @@ body {
     background: linear-gradient(180deg, rgb(114, 114, 114), black);
 }
 
+h4{
+    color: rgb(0, 0, 0);
+    margin-top: 0px;
+}
+h4:hover{
+    color: rgb(10, 77, 153);
+    margin-top: 0px;
+    cursor: pointer;
+}
 h2 {
     margin-top: -10px;
     text-align: center;
